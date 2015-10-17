@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Outlets
+    @IBOutlet weak var mathLabel: UILabel!
+    @IBOutlet weak var multipleTxtField: UITextField!
+    @IBOutlet weak var playBtn: UIButton!
+    @IBOutlet weak var addBtn: UIButton!
+    @IBOutlet weak var titleLabel: UIImageView!
+
+    
 
 }
 
