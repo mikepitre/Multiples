@@ -52,6 +52,9 @@
                                     <constraint firstAttribute="width" secondItem="OFD-fc-b6l" secondAttribute="height" multiplier="145:144" id="rhX-bd-bHM"/>
                                 </constraints>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MkR-W3-HjZ"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBQ-Gf-jc6">
                                 <rect key="frame" x="94" y="485" width="132" height="63"/>
@@ -60,6 +63,9 @@
                                     <constraint firstAttribute="width" secondItem="mBQ-Gf-jc6" secondAttribute="height" multiplier="44:21" id="Me1-28-OSB"/>
                                 </constraints>
                                 <state key="normal" image="add"/>
+                                <connections>
+                                    <action selector="addBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FS5-xi-pYy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>

@@ -17,6 +17,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var addBtn: UIButton!
     @IBOutlet weak var titleLabel: UIImageView!
 
+    @IBAction func playBtnPressed(sender: UIButton) {
+    }
+    
+    @IBAction func addBtnPressed(sender: UIButton) {
+    }
     
 
 }
