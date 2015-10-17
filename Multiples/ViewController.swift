@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     func restartOn11thMultiple() {
-        //reset everything once current total is 100 or greater
+        //reset everything after 10th multiple is shown
         if timesAddPressed > 10 {
             titleLabel.hidden = false
             multipleTxtField.hidden = false
