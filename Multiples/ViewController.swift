@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     var currentTotal = 0
     var multiple = 0
+    var timesAddPressed = 0
     
     //actions
 
@@ -42,6 +43,22 @@ class ViewController: UIViewController {
         //show math, update to next multiple with every press
         mathLabel.text = "\(currentTotal) + \(multiple) = \(currentTotal + multiple)"
         currentTotal += multiple
+        timesAddPressed++
+        restartOn11thMultiple()
+    }
+    
+    func restartOn11thMultiple() {
+        //reset everything once current total is 100 or greater
+        if timesAddPressed > 10 {
+            titleLabel.hidden = false
+            multipleTxtField.hidden = false
+            playBtn.hidden = false
+            mathLabel.hidden = true
+            addBtn.hidden = true
+            currentTotal = 0
+            multiple = 0
+            multipleTxtField.text = ""
+        }
     }
     
 
